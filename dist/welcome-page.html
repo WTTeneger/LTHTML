@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuckyTrade</title>
+  <link rel="icon" href="./favicon.ico">
+  <link href="./assets/css/variables.css" rel="stylesheet">
+  <link href="./assets/css/welcome-page.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="page-account">
+    <aside class="page-account__aside account-aside" id="account-aside" data-aside>
+      <a href="#" class="account-aside__logo">
+        <img src="./assets/img/logo/logo.svg" alt="Lucky Trade Logo">
+      </a>
+      <nav class="account-aside__nav aside-nav">
+        <ul class="aside-nav__list">
+          <li class="aside-nav__item">
+            <a href="#" class="aside-nav__link aside-nav__link_active">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="22.5px" height="21.5px">
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M1.882,1.488 L14.284,1.488 L14.284,13.413 L1.882,13.413 L1.882,1.488 Z" />
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M7.882,7.488 L20.283,7.488 L20.283,19.413 L7.882,19.413 L7.882,7.488 Z" />
+              </svg>
+              Courses
+            </a>
+          </li>
+          <li class="aside-nav__item">
+            <a href="#" class="aside-nav__link">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="19.5px" height="19.5px">
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M1.307,1.195 L16.31,1.195 L16.31,15.919 L1.307,15.919 L1.307,1.195 Z" />
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M3.147,3.36 L17.871,3.36 L17.871,17.759 L3.147,17.759 L3.147,3.36 Z" />
+              </svg>
+              Copy Trading
+            </a>
+          </li>
+          <li class="aside-nav__item">
+            <a href="#" class="aside-nav__link">
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="20.5px" height="19.5px">
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M1.134,1.647 L18.277,1.647 L18.277,5.76 L1.134,5.76 L1.134,1.647 Z" />
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M1.134,7.647 L18.277,7.647 L18.277,11.76 L1.134,11.76 L1.134,7.647 Z" />
+                <path fill-rule="evenodd" stroke-width="1px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+                  d="M1.134,13.647 L18.277,13.647 L18.277,17.76 L1.134,17.76 L1.134,13.647 Z" />
+              </svg>
+              Dashboard
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <header class="page-account__header account-header">
+      <button class="account-header__btn-nav-toggle hamburger hamburger_type2" aria-label="Toggle aside"
+        aria-expanded="false" aria-controls="account-aside" type="button" data-btn-aside-toggle>
+        <span class="hamburger-box" aria-hidden="true">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div class="account-header__balance user-balance">
+        <p class="user-balance__label">LuckyTrade Balance</p>
+        <p class="user-balance__value">137.026 USD</p>
+      </div>
+      <div class="dropdown account-header__dropdown-user dropdown-user" data-dropdown>
+        <button class="dropdown__btn" data-dropdown-btn>
+          <div class="dropdown-user__photo">
+            <img src="./assets/img/user.png" alt="User Photo">
+          </div>
+          <span class="dropdown-user__name">UserName661</span>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+            <path fill-rule="evenodd" d="M0.0,0.947 L6.149,7.96 L12.298,0.947 L0.0,0.947 Z" />
+          </svg>
+        </button>
+        <div class="dropdown__drop">
+          <ul class="dropdown-user__links">
+            <li><a href="#">Настройки</a></li>
+            <li><a href="#">Выйти</a></li>
+            <li><a href="#">...</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="page-account__main">
+      <section class="section-welcome">
+        <div class="section-welcome__logo">
+          <img src="./assets/img/logo/logo-small.svg" alt="Lucky Trade Logo">
+        </div>
+        <div class="section-welcome__info">
+          <h1 class="section-welcome__title">Welcome to LuskyTrade!</h1>
+          <p class="section-welcome__text">
+            LuckyTrade provides an opportunity for seasoned traders to earn on subscriptions to their trades, and for
+            investors to start trading without any specific knowledge and experience.
+          </p>
+          <p class="section-welcome__label">Choose your rate and let's go!</p>
+        </div>
+        <div class="section-welcome__rate-cards-wrapper rate-cards">
+          <ul class="rate-cards__list">
+            <li class="rate-cards__item">
+              <h2 class="rate-cards__title">Connect Your Exchange</h2>
+              <img src="./assets/img/rate-icon.png" alt="Alt" class="rate-cards__icon">
+              <p class="rate-cards__text">
+                Connect your exchange accoutn. Currently, Coinmatics supports Binance. OKEx, FTX and Bybit exchanges.
+              </p>
+              <button class="btn-default rate-cards__btn-buy">Buy now!</button>
+            </li>
+            <li class="rate-cards__item">
+              <h2 class="rate-cards__title">Connect Your Exchange</h2>
+              <img src="./assets/img/rate-icon.png" alt="Alt" class="rate-cards__icon">
+              <p class="rate-cards__text">
+                Connect your exchange accoutn. Currently, Coinmatics supports Binance. OKEx, FTX and Bybit exchanges.
+              </p>
+              <button class="btn-default rate-cards__btn-buy">Buy now!</button>
+            </li>
+            <li class="rate-cards__item">
+              <h2 class="rate-cards__title">Connect Your Exchange</h2>
+              <img src="./assets/img/rate-icon.png" alt="Alt" class="rate-cards__icon">
+              <p class="rate-cards__text">
+                Connect your exchange accoutn. Currently, Coinmatics supports Binance. OKEx, FTX and Bybit exchanges.
+              </p>
+              <button class="btn-default rate-cards__btn-buy">Buy now!</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./assets/js/account.js"></script>
+</body>
+
+</html>

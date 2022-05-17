@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuckyTrade</title>
+  <link rel="icon" href="./favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="./assets/css/variables.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="page">
+    <header class="page__header header">
+      <div class="header__top-bar top-bar">
+        <div class="top-bar__inner wrapper">
+          <a href="#" class="top-bar__logo">
+            <img src="./assets/img/logo/logo.svg" alt="Lucky Trade Logo">
+          </a>
+          <div class="top-bar__controls">
+            <div class="dropdown dropdown-lang" data-dropdown>
+              <button class="dropdown__btn" data-dropdown-btn>
+                Рус
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M0.0,0.947 L6.149,7.96 L12.298,0.947 L0.0,0.947 Z" />
+                </svg>
+              </button>
+              <div class="dropdown__drop">
+                <ul class="dropdown-lang__langs">
+                  <li><a href="#">Рус</a></li>
+                  <li><a href="#">Eng</a></li>
+                </ul>
+              </div>
+            </div>
+            <button class="btn-secondary">Войти</button>
+            <button class="btn-default">Начать</button>
+          </div>
+          <button class="top-bar__btn-nav-toggle hamburger hamburger--spin" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="top-bar-nav" type="button" data-btn-nav-toggle>
+            <span class="hamburger-box" aria-hidden="true">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="top-bar__nav" id="top-bar-nav" data-nav>
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Инвесторам</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Трейдерам</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Тарифы</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Поддержка</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__content">
+
+      </div>
+    </header>
+    <main class="page__main main">
+      <section class="section-about">
+        <div class="section-about__wrapper wrapper">
+          <div class="section-about__info-wrapper">
+            <h1 class="section-about__title">Автоматическое <span><br>копирование сделок<br></span> на криптовалютных
+              биржах
+            </h1>
+            <p class="section-about__info">
+              Копитрейдинговый сервис LuckyTrade позволит Вам повторять <br> сделки трейдеров и торговых роботов, а
+              также
+              получать сигналы от стратегий только с проверенной историей.
+            </p>
+            <button class="btn-default section-about__btn-start">Запустить копитрейдинг</button>
+          </div>
+          <div class="section-about__bg">
+            <img src="./assets/img/landing-bg.png" alt="Alt">
+          </div>
+        </div>
+      </section>
+      <section class="section-speed">
+        <div class="section-speed__wrapper wrapper">
+          <div class="section-speed__speed-info speed-info">
+            <ul class="speed-info__list">
+              <li class="speed-info__item">
+                <div class="speed-info__item-inner">
+                  <h3 class="speed-info__title">Скорость</h3>
+                  <p class="speed-info__text">Время на повторение сделки</p>
+                  <p class="speed-info__value">&lt; 2 sec</p>
+                </div>
+              </li>
+              <li class="speed-info__item">
+                <div class="speed-info__item-inner">
+                  <h3 class="speed-info__title">Скорость</h3>
+                  <p class="speed-info__text">Время на повторение сделки</p>
+                  <p class="speed-info__value">98.5%</p>
+                </div>
+              </li>
+              <li class="speed-info__item">
+                <div class="speed-info__item-inner">
+                  <h3 class="speed-info__title">Скорость</h3>
+                  <p class="speed-info__text">Время на повторение сделки</p>
+                  <p class="speed-info__value">99.6%</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-features">
+        <div class="section-features__wrapper wrapper">
+          <div class="section-features__logo">
+            <img src="./assets/img/logo/logo-small.svg" alt="Lucky Trade Logo">
+          </div>
+          <h2 class="section-features__title">Основной продукт <span>для инвесторов</span></h2>
+          <p class="section-features__info">
+            Наша платформа формирует уникальные возможности для прироста капитала, вобрав лучшее из мира криптовалют и
+            инвестиций.
+          </p>
+          <div class="section-features__features-wrapper">
+            <ul class="section-features__features-list features-list">
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon1.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Пасивный доход 2.0</h3>
+                    <p class="features-list__text">
+                      Получайте доходы активного криптотрейдинга без участия в торговле
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon2.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Диверсификация</h3>
+                    <p class="features-list__text">
+                      Распределяйте активы между трейдерами с разными стратегиями
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon3.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Управление рисками</h3>
+                    <p class="features-list__text">
+                      Устанавливайте уровни допустимого риска к выбранным стратегиям
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon4.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Абсолютная безопасность</h3>
+                    <p class="features-list__text">
+                      Сервис работает без прямого доступа к биржевому аккаунту и средствам
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon5.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Синхронизация портфеля</h3>
+                    <p class="features-list__text">
+                      Выравнивайте активы с аккаунтом трейдера в 1 клик
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="features-list__item">
+                <div class="features-list__item-inner">
+                  <img src="./assets/img/features/icon6.svg" alt="Alt" class="features-list__img">
+                  <div class="features-list__info">
+                    <h3 class="features-list__title">Принцип одной лодки</h3>
+                    <p class="features-list__text">
+                      Трейдер, формируя сделки для копирования, рискует своими средствами
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-steps">
+        <div class="section-steps__wrapper wrapper">
+          <h2 class="section-steps_title">Чтобы начать - нужно <span>всего 3 шага</span></h2>
+          <div class="section-steps__steps-wrapper">
+            <ul class="section-steps__steps-list steps-list">
+              <li class="steps-list__item">
+                <div class="steps-list__item-inner">
+                  <div class="steps-list__img">
+                    <img src="./assets/img/steps/step1.svg" alt="Alt">
+                  </div>
+                  <div class="steps-list__info">
+                    <p class="steps-list__number">1</p>
+                    <h3 class="steps-list__title">Подключите биржевой аккаунт</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="steps-list__item">
+                <div class="steps-list__item-inner">
+                  <div class="steps-list__img">
+                    <img src="./assets/img/steps/step2.svg" alt="Alt">
+                  </div>
+                  <div class="steps-list__info">
+                    <p class="steps-list__number">2</p>
+                    <h3 class="steps-list__title">Выберите стратегию для копирования</h3>
+                  </div>
+                </div>
+              </li>
+              <li class="steps-list__item">
+                <div class="steps-list__item-inner">
+                  <div class="steps-list__img">
+                    <img src="./assets/img/steps/step3.svg" alt="Alt">
+                  </div>
+                  <div class="steps-list__info">
+                    <p class="steps-list__number">3</p>
+                    <h3 class="steps-list__title">Отслеживайте изменения на счету</h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-integrations">
+        <div class="section-integrations__wrapper wrapper">
+          <h2 class="section-integrations__title">Список поддерживаемых интеграций</h2>
+          <div class="section-integrations__integrations-list-wrapper integrations-list">
+            <ul class="integrations-list__list">
+              <li class="integrations-list__item">
+                <div class="integrations-list__logo">
+                  <img src="./assets/img/icons/binance.svg" alt="Binance logo" class="integrations-list__logo">
+                </div>
+                <p class="integrations-list__text">Spot and Futures</p>
+              </li>
+              <li class="integrations-list__item">
+                <div class="integrations-list__logo">
+                  <img src="./assets/img/icons/binance.svg" alt="Binance logo" class="integrations-list__logo">
+                </div>
+                <p class="integrations-list__text">Spot and Futures</p>
+              </li>
+              <li class="integrations-list__item">
+                <div class="integrations-list__logo">
+                  <img src="./assets/img/icons/binance.svg" alt="Binance logo" class="integrations-list__logo">
+                </div>
+                <p class="integrations-list__text">Spot and Futures</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer footer">
+      <div class="footer__wrapper wrapper">
+
+      </div>
+    </footer>
+  </div>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
